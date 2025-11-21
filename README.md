@@ -1,5 +1,7 @@
 # Ex. No: 11 – Packet Tracer: Verify IPv4 and IPv6 Addressing
-# Date: ___________
+# Name : Gowtham v
+# Register Number : 212223100009
+# Date:17-11-2025
 ________________________________________<br>
 # Objective
 To configure, verify, and test dual-stack (IPv4 and IPv6) addressing on a Cisco Packet Tracer network topology.<br>
@@ -14,7 +16,12 @@ ________________________________________<br>
 • 2 PCs (PC1, PC2)<br>
 • Copper straight-through and Serial DCE/DTE cables<br>
 ________________________________________<br>
-# Network Topology Diagram
+# Network Topology Diagram :
+
+
+<img width="1919" height="1085" alt="Screenshot 2025-10-27 203930" src="https://github.com/user-attachments/assets/7210d77d-b1f3-4bd3-a51c-35c040681af8" />
+
+
 (Insert your Packet Tracer screenshot showing R1–R2–R3 in series and PCs connected to edge routers.)<br>
 ________________________________________<br>
 # Addressing Table
@@ -67,8 +74,35 @@ ________________________________________<br>
 ________________________________________
 # Output (Attach Screenshots)
 • ipconfig /all and ipv6config /all output for both PCs.<br>
+
+
+<img width="1917" height="1140" alt="Screenshot 2025-10-27 210051" src="https://github.com/user-attachments/assets/15a72ff3-e002-4adb-8573-05d64374fdfb" />
+
+
+
+
+
+
 • Ping results for IPv4 and IPv6.<br>
+
+
+<img width="1913" height="1138" alt="image" src="https://github.com/user-attachments/assets/6ad24be6-f697-478f-8b71-083d059ded93" />
+
+
+
+
+
 • Traceroute results showing intermediate hops.<br>
+
+<img width="1913" height="1138" alt="image" src="https://github.com/user-attachments/assets/b7787018-4a8c-4de9-8eed-8535759724ff" />
+
+
+• Activity Result :
+
+<img width="1918" height="1137" alt="image" src="https://github.com/user-attachments/assets/f0ee4a54-d0d2-408b-9c52-a6d2060a0e21" />
+
+
+
 ________________________________________
 # Result
 The dual-stack IPv4 and IPv6 addressing scheme was successfully verified. Both addressing types achieved full connectivity between PC1 and PC2 through multiple routers, confirming correct configuration and routing.
